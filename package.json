@@ -1,0 +1,13 @@
+{
+  "name": "playwright-e2e-sample",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:list": "playwright test --list"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "dotenv": "^17.3.1"
+  }
+}
